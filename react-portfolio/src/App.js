@@ -3,6 +3,7 @@ import React from 'react';
 import Nav from './components/Nav';
 import Header from './components/Header';
 import Section from './components/Section';
+import Footer from './components/Footer';
 
 export default function App() {
   const sections = [{
@@ -23,6 +24,7 @@ export default function App() {
       <Nav sections={sections}/>
       <Header />
       <Section sections={sections}/>
+      <Footer />
     </div>
   );
 }
