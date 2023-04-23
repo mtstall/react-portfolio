@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Nav() {
+export default function Nav({ sections }) {
   const linkStyle = { border: '1px black', padding: '5px' }; // defining the linkStyle settings
 
   return (
@@ -14,18 +14,12 @@ export default function Nav() {
           justifyContent: 'flex-start',
         }}
       >
-        <div style={linkStyle}>
-          <a href="#">About Me</a>
-        </div>
-        <div style={linkStyle}>
-          <a href="#">Portfolio</a>
-        </div>
-        <div style={linkStyle}>
-          <a href="#">Contact</a>
-        </div>
-        <div style={linkStyle}>
-          <a href="#">Resume</a>
-        </div>
+        {sections.map((section) => (
+          <div style={linkStyle}>
+            <a href={section.tag}>{section.header}</a>
+          </div>
+        ))
+        }
       </section>
     </nav>
   );
