@@ -1,7 +1,10 @@
 import React from 'react';
+import '../styles/NavTabs.css';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
+    <div className = "nav">
+        <h1>Taylor Stallings</h1>
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
@@ -46,6 +49,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </div>
   );
 }
 

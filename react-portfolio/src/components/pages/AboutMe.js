@@ -2,9 +2,15 @@ import React from "react";
 
 export default function AboutMe() {
   return (
-    <div className="container">
+    <div>
+      <section class="content-header">
         <h2>About Me</h2>
-      My name is Taylor.
+        <img src="../../public/images/selfie.png" alt="taylor stallings" />
+      </section>
+      <section class="content-body">
+        {" "}
+        <p>My name is Taylor.</p>
+      </section>
     </div>
   );
 }
