@@ -2,12 +2,16 @@
     width: 30%;
 }
 
-.deployed-app img {
+/* .deployed-app img {
+    width: 10%;
+} */
+
+.links a {
     width: 10%;
 }
 
-.repo img {
-    width: 10%;
+.links img {
+    width: 50%;
 }
 
 .links {
@@ -17,5 +21,41 @@
 }
 
 .applications {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.screenshot img {
+    width: 100%;
+}
+
+.work-day-scheduler {
+    border-style: solid;
+    width: 30%;
+}
+
+.code-quiz {
+    border-style: solid;
+    width: 30%;
+}
+
+.five-day-weather-forecast {
+    border-style: solid;
+    width: 30%;
+}
+
+.password-generator {
+    border-style: solid;
+    width: 30%;
+}
+
+.movie-mania {
+    border-style: solid;
+    width: 30%;
+}
+
+.calm-calendar {
+    border-style: solid;
+    width: 30%;
 }
