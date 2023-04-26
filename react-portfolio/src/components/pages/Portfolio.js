@@ -45,23 +45,25 @@ export default function Portfolio() {
         <div class="screenshot">
           <img src={codeQuiz} alt="screenshot of deployed code quiz app" />
         </div>
-        <div class="deployed-app">
-          <a
-            href="https://mtstall.github.io/coding-assessment/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <img src={deployment} alt="deployment icon" />
-          </a>
-        </div>
-        <div class="repo">
-          <a
-            href="https://github.com/mtstall/coding-assessment"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <img src={github} alt="github icon for link to github repo" />
-          </a>
+        <div className="links">
+          <div class="deployed-app">
+            <a
+              href="https://mtstall.github.io/coding-assessment/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img src={deployment} alt="deployment icon" />
+            </a>
+          </div>
+          <div class="repo">
+            <a
+              href="https://github.com/mtstall/coding-assessment"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img src={github} alt="github icon for link to github repo" />
+            </a>
+          </div>
         </div>
       </div>
 
@@ -72,23 +74,25 @@ export default function Portfolio() {
             alt="screenshot of deployed weather forecast app"
           />
         </div>
-        <div class="deployed-app">
-          <a
-            href="https://mtstall.github.io/five-day-weather-forecast/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <img src={deployment} alt="deployment icon" />
-          </a>
-        </div>
-        <div class="repo">
-          <a
-            href="https://github.com/mtstall/five-day-weather-forecast"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <img src={github} alt="github icon for link to github repo" />
-          </a>
+        <div className="links">
+          <div class="deployed-app">
+            <a
+              href="https://mtstall.github.io/five-day-weather-forecast/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img src={deployment} alt="deployment icon" />
+            </a>
+          </div>
+          <div class="repo">
+            <a
+              href="https://github.com/mtstall/five-day-weather-forecast"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img src={github} alt="github icon for link to github repo" />
+            </a>
+          </div>
         </div>
       </div>
 
@@ -99,23 +103,25 @@ export default function Portfolio() {
             alt="screenshot of deployed password generator app"
           />
         </div>
-        <div class="deployed-app">
-          <a
-            href="https://mtstall.github.io/password-generator/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <img src={deployment} alt="deployment icon" />
-          </a>
-        </div>
-        <div class="repo">
-          <a
-            href="https://github.com/mtstall/password-generator"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <img src={github} alt="github icon for link to github repo" />
-          </a>
+        <div className="links">
+          <div class="deployed-app">
+            <a
+              href="https://mtstall.github.io/password-generator/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img src={deployment} alt="deployment icon" />
+            </a>
+          </div>
+          <div class="repo">
+            <a
+              href="https://github.com/mtstall/password-generator"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img src={github} alt="github icon for link to github repo" />
+            </a>
+          </div>
         </div>
       </div>
 
@@ -123,23 +129,25 @@ export default function Portfolio() {
         <div class="screenshot">
           <img src={movieMania} alt="screenshot of deployed movie mania app" />
         </div>
-        <div class="deployed-app">
-          <a
-            href="https://mia2380.github.io/Sneak-Attack-Project-1/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <img src={deployment} alt="deployment icon" />
-          </a>
-        </div>
-        <div class="repo">
-          <a
-            href="https://github.com/mia2380/Sneak-Attack-Project-1"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <img src={github} alt="github icon for link to github repo" />
-          </a>
+        <div className="links">
+          <div class="deployed-app">
+            <a
+              href="https://mia2380.github.io/Sneak-Attack-Project-1/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img src={deployment} alt="deployment icon" />
+            </a>
+          </div>
+          <div class="repo">
+            <a
+              href="https://github.com/mia2380/Sneak-Attack-Project-1"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img src={github} alt="github icon for link to github repo" />
+            </a>
+          </div>
         </div>
       </div>
 
@@ -150,23 +158,25 @@ export default function Portfolio() {
             alt="screenshot of deployed calm calendar app"
           />
         </div>
-        <div class="deployed-app">
-          <a
-            href="https://calm-calendar-app.herokuapp.com/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <img src={deployment} alt="deployment icon" />
-          </a>
-        </div>
-        <div class="repo">
-          <a
-            href="https://github.com/mtstall/calm-calendar-app"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <img src={github} alt="github icon for link to github repo" />
-          </a>
+        <div className="links">
+          <div class="deployed-app">
+            <a
+              href="https://calm-calendar-app.herokuapp.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img src={deployment} alt="deployment icon" />
+            </a>
+          </div>
+          <div class="repo">
+            <a
+              href="https://github.com/mtstall/calm-calendar-app"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img src={github} alt="github icon for link to github repo" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
