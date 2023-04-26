@@ -1,0 +1,15 @@
+.screenshot img {
+    width: 30%;
+}
+
+.deployed-app img {
+    width: 5%;
+}
+
+.repo img {
+    width: 5%;
+}
+
+.links {
+    display: inline;
+}
