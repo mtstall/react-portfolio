@@ -1,5 +1,6 @@
 import React from "react";
 import resume from "../../public/pdfs/Stallings_Resume.pdf";
+import '../../styles/Resume.css';
 
 export default function Resume() {
   return (
