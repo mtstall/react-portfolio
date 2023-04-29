@@ -29,11 +29,11 @@ export default function Contact() {
       setNameRequired(true);
     } else if (!event.target.value && event.target.id === "email-input") {
       setEmailRequired(true);
-    } else if (!validateEmail(email)) {
-      setErrorMessage("Please enter a valid email!");
     } else if (!event.target.value && event.target.id === "message-input") {
       setMessageRequired(true);
-    } else {
+    } else if (!validateEmail(email)) {
+      setErrorMessage("Please enter a valid email!");
+    }  else {
       setNameRequired(false);
       setEmailRequired(false);
       setMessageRequired(false);
@@ -42,7 +42,6 @@ export default function Contact() {
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
-    console.log("in handleFormSubmit");
 
     setName("");
     setEmail("");
