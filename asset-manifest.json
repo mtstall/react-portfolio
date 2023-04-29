@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.10de1c44.css",
+    "main.js": "/react-portfolio/static/js/main.b92ca94b.js",
+    "static/media/selfie.png": "/react-portfolio/static/media/selfie.27dd1bf778960ef8dd4e.png",
+    "static/media/movie-mania.png": "/react-portfolio/static/media/movie-mania.523987d3ea333916eb87.png",
+    "static/media/five-day-weather-forecast.png": "/react-portfolio/static/media/five-day-weather-forecast.ce26dc7b2f3929b5409d.png",
+    "static/media/work-day-scheduler.png": "/react-portfolio/static/media/work-day-scheduler.b6c5572383b708ce6b32.png",
+    "static/media/calm-calendar.png": "/react-portfolio/static/media/calm-calendar.04d99cd55405c836117d.png",
+    "static/media/Stallings_Resume.pdf": "/react-portfolio/static/media/Stallings_Resume.2c8d4231b7878e9255f2.pdf",
+    "static/media/twitter-icon.png": "/react-portfolio/static/media/twitter-icon.3bfe11026397a9ef3550.png",
+    "static/media/password-generator.png": "/react-portfolio/static/media/password-generator.bceb5db8b44f88800447.png",
+    "static/media/linkedin-icon.png": "/react-portfolio/static/media/linkedin-icon.6d58dbe88058f8dab0f9.png",
+    "static/media/deployment.png": "/react-portfolio/static/media/deployment.015c8fea118a953d2fe6.png",
+    "static/media/github-icon.jpg": "/react-portfolio/static/media/github-icon.27b754e70aa444570707.jpg",
+    "static/media/coding-quiz.png": "/react-portfolio/static/media/coding-quiz.3b81de8249950c815335.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.10de1c44.css.map": "/react-portfolio/static/css/main.10de1c44.css.map",
+    "main.b92ca94b.js.map": "/react-portfolio/static/js/main.b92ca94b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10de1c44.css",
+    "static/js/main.b92ca94b.js"
+  ]
+}
