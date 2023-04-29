@@ -106,13 +106,7 @@ export default function Contact() {
           Please enter a message!
         </div>
       )}
-      <a
-        href="mailto:mtstallings95@gmail.com?subject=Contacting You From Your React Portfolio"
-        onClick={handleFormSubmit}
-        type="click"
-      >
-        Send Email
-      </a>
+      <button type="submit" className="btn btn-primary" onClick={handleFormSubmit}>Send Email</button>
     </div>
   );
 }

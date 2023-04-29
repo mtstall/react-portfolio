@@ -20,7 +20,7 @@ export default function Portfolio() {
           />
         </div>
         <div className="links">
-          <div class="deployed-app">
+          {/* <div class="deployed-app"> */}
             <a
               href="https://mtstall.github.io/work-day-scheduler/"
               rel="noreferrer"
@@ -28,8 +28,8 @@ export default function Portfolio() {
             >
               <img src={deployment} alt="deployment icon" />
             </a>
-          </div>
-          <div class="repo">
+          {/* </div> */}
+          {/* <div class="repo"> */}
             <a
               href="https://github.com/mtstall/work-day-scheduler"
               rel="noreferrer"
@@ -37,7 +37,7 @@ export default function Portfolio() {
             >
               <img src={github} alt="github icon for link to github repo" />
             </a>
-          </div>
+          {/* </div> */}
         </div>
       </div>
 
@@ -46,7 +46,7 @@ export default function Portfolio() {
           <img src={codeQuiz} alt="screenshot of deployed code quiz app" />
         </div>
         <div className="links">
-          <div class="deployed-app">
+          {/* <div class="deployed-app"> */}
             <a
               href="https://mtstall.github.io/coding-assessment/"
               rel="noreferrer"
@@ -54,8 +54,8 @@ export default function Portfolio() {
             >
               <img src={deployment} alt="deployment icon" />
             </a>
-          </div>
-          <div class="repo">
+          {/* </div> */}
+          {/* <div class="repo"> */}
             <a
               href="https://github.com/mtstall/coding-assessment"
               rel="noreferrer"
@@ -63,7 +63,7 @@ export default function Portfolio() {
             >
               <img src={github} alt="github icon for link to github repo" />
             </a>
-          </div>
+          {/* </div> */}
         </div>
       </div>
 
@@ -75,7 +75,7 @@ export default function Portfolio() {
           />
         </div>
         <div className="links">
-          <div class="deployed-app">
+          {/* <div class="deployed-app"> */}
             <a
               href="https://mtstall.github.io/five-day-weather-forecast/"
               rel="noreferrer"
@@ -83,8 +83,8 @@ export default function Portfolio() {
             >
               <img src={deployment} alt="deployment icon" />
             </a>
-          </div>
-          <div class="repo">
+          {/* </div> */}
+          {/* <div class="repo"> */}
             <a
               href="https://github.com/mtstall/five-day-weather-forecast"
               rel="noreferrer"
@@ -92,7 +92,7 @@ export default function Portfolio() {
             >
               <img src={github} alt="github icon for link to github repo" />
             </a>
-          </div>
+          {/* </div> */}
         </div>
       </div>
 
@@ -104,7 +104,7 @@ export default function Portfolio() {
           />
         </div>
         <div className="links">
-          <div class="deployed-app">
+          {/* <div class="deployed-app"> */}
             <a
               href="https://mtstall.github.io/password-generator/"
               rel="noreferrer"
@@ -112,8 +112,8 @@ export default function Portfolio() {
             >
               <img src={deployment} alt="deployment icon" />
             </a>
-          </div>
-          <div class="repo">
+          {/* </div> */}
+          {/* <div class="repo"> */}
             <a
               href="https://github.com/mtstall/password-generator"
               rel="noreferrer"
@@ -121,7 +121,7 @@ export default function Portfolio() {
             >
               <img src={github} alt="github icon for link to github repo" />
             </a>
-          </div>
+          {/* </div> */}
         </div>
       </div>
 
@@ -130,7 +130,7 @@ export default function Portfolio() {
           <img src={movieMania} alt="screenshot of deployed movie mania app" />
         </div>
         <div className="links">
-          <div class="deployed-app">
+          {/* <div class="deployed-app"> */}
             <a
               href="https://mia2380.github.io/Sneak-Attack-Project-1/"
               rel="noreferrer"
@@ -138,8 +138,8 @@ export default function Portfolio() {
             >
               <img src={deployment} alt="deployment icon" />
             </a>
-          </div>
-          <div class="repo">
+          {/* </div> */}
+          {/* <div class="repo"> */}
             <a
               href="https://github.com/mia2380/Sneak-Attack-Project-1"
               rel="noreferrer"
@@ -147,7 +147,7 @@ export default function Portfolio() {
             >
               <img src={github} alt="github icon for link to github repo" />
             </a>
-          </div>
+          {/* </div> */}
         </div>
       </div>
 
@@ -159,7 +159,7 @@ export default function Portfolio() {
           />
         </div>
         <div className="links">
-          <div class="deployed-app">
+          {/* <div class="deployed-app"> */}
             <a
               href="https://calm-calendar-app.herokuapp.com/"
               rel="noreferrer"
@@ -167,8 +167,8 @@ export default function Portfolio() {
             >
               <img src={deployment} alt="deployment icon" />
             </a>
-          </div>
-          <div class="repo">
+          {/* </div> */}
+          {/* <div class="repo"> */}
             <a
               href="https://github.com/mtstall/calm-calendar-app"
               rel="noreferrer"
@@ -176,7 +176,7 @@ export default function Portfolio() {
             >
               <img src={github} alt="github icon for link to github repo" />
             </a>
-          </div>
+          {/* </div> */}
         </div>
       </div>
     </div>

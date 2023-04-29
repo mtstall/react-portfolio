@@ -3,10 +3,14 @@
     /* aspect-ratio: 1/1; */
 }
 
-h2 {
-    color: #cdb4db;
+h2, p {
+    color: #0077b6;
 }
 
 p {
-    color: #cdb4db;
+    color: #48cae4;
+}
+
+.about-me {
+    display: flex;
 }
