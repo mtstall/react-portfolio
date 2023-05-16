@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.10de1c44.css",
-    "main.js": "/react-portfolio/static/js/main.7a0f3638.js",
+    "main.css": "/react-portfolio/static/css/main.ad9ff04d.css",
+    "main.js": "/react-portfolio/static/js/main.4717aef7.js",
     "static/media/selfie.png": "/react-portfolio/static/media/selfie.27dd1bf778960ef8dd4e.png",
+    "static/media/launch-pad.png": "/react-portfolio/static/media/launch-pad.869ba54d4c1a437ba82f.png",
     "static/media/movie-mania.png": "/react-portfolio/static/media/movie-mania.523987d3ea333916eb87.png",
     "static/media/five-day-weather-forecast.png": "/react-portfolio/static/media/five-day-weather-forecast.ce26dc7b2f3929b5409d.png",
     "static/media/work-day-scheduler.png": "/react-portfolio/static/media/work-day-scheduler.b6c5572383b708ce6b32.png",
@@ -15,11 +16,11 @@
     "static/media/github-icon.jpg": "/react-portfolio/static/media/github-icon.27b754e70aa444570707.jpg",
     "static/media/coding-quiz.png": "/react-portfolio/static/media/coding-quiz.3b81de8249950c815335.png",
     "index.html": "/react-portfolio/index.html",
-    "main.10de1c44.css.map": "/react-portfolio/static/css/main.10de1c44.css.map",
-    "main.7a0f3638.js.map": "/react-portfolio/static/js/main.7a0f3638.js.map"
+    "main.ad9ff04d.css.map": "/react-portfolio/static/css/main.ad9ff04d.css.map",
+    "main.4717aef7.js.map": "/react-portfolio/static/js/main.4717aef7.js.map"
   },
   "entrypoints": [
-    "static/css/main.10de1c44.css",
-    "static/js/main.7a0f3638.js"
+    "static/css/main.ad9ff04d.css",
+    "static/js/main.4717aef7.js"
   ]
 }
