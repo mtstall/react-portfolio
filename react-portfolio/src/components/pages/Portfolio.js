@@ -1,6 +1,7 @@
 import React from "react";
 import deployment from "../../public/images/deployment.png";
 import github from "../../public/images/github-icon.jpg";
+import launchPad from "../../public/images/launch-pad.png";
 import workDayScheduler from "../../public/images/work-day-scheduler.png";
 import codeQuiz from "../../public/images/coding-quiz.png";
 import weatherForecast from "../../public/images/five-day-weather-forecast.png";
@@ -12,6 +13,35 @@ import "../../styles/Portfolio.css";
 export default function Portfolio() {
   return (
     <div className="applications">
+      <div class="launch-pad">
+        <div class="screenshot">
+          <img
+            src={launchPad}
+            alt="screenshot of deployed launch pad app"
+          />
+        </div>
+        <div className="links">
+          {/* <div class="deployed-app"> */}
+            <a
+              href="https://launch-pad.herokuapp.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img src={deployment} alt="deployment icon" />
+            </a>
+          {/* </div> */}
+          {/* <div class="repo"> */}
+            <a
+              href="https://github.com/andykb9b13/Launch-Pad"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img src={github} alt="github icon for link to github repo" />
+            </a>
+          {/* </div> */}
+        </div>
+      </div>
+
       <div class="work-day-scheduler">
         <div class="screenshot">
           <img
